@@ -1,3 +1,4 @@
+#! /bin/sh
 # git fetch
 cd /home/jw/Desktop/git/test/demo && sudo git fetch
 # git pull
