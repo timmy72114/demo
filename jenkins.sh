@@ -1,6 +1,6 @@
 # git fetch
 cd /home/jw/Desktop/git/test/demo && sudo git fetch
-# git fetch
+# git pull
 cd /home/jw/Desktop/git/test/demo && sudo git pull --rebase
 # delete orignal file
 cd /home/jw/Desktop/git/test/demo/dist/ && rm app
