@@ -1,11 +1,11 @@
 # git fetch
-cd /home/jw/Desktop/git/test/demo && sudo git fetch
+sudo cd /home/jw/Desktop/git/test/demo && git fetch
 # git pull
-cd /home/jw/Desktop/git/test/demo && sudo git pull --rebase
+sudo cd /home/jw/Desktop/git/test/demo && git pull --rebase
 # delete orignal file
-cd /home/jw/Desktop/git/test/demo && sudo  rm -rf dist/
+sudo cd /home/jw/Desktop/git/test/demo &&  rm -rf dist/
 # cd /home/jw/Desktop/git/test/demo && pip install --no-cache-dir -r requirements.txt
 # build
-cd /home/jw/Desktop/git/test/demo && sudo pyinstaller -F app.py
+sudo cd /home/jw/Desktop/git/test/demo && pyinstaller -F app.py
 # move file
-cp -f /home/jw/Desktop/git/test/demo/dist/app /home/jw/Desktop/
+sudo cp -f /home/jw/Desktop/git/test/demo/dist/app /home/jw/Desktop/
