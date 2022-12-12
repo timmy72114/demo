@@ -8,4 +8,4 @@ cd /home/jw/Desktop/git/test/demo && pip install --no-cache-dir -r requirements.
 # build
 cd /home/jw/Desktop/git/test/demo && sudo pyinstaller -F app.py
 # move file
-sudo mv -f /home/jw/Desktop/git/test/demo/dist/app /home/jw/Desktop/
+cp -f /home/jw/Desktop/git/test/demo/dist/app /home/jw/Desktop/
