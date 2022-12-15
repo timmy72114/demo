@@ -9,4 +9,4 @@ cd /home/jw/Desktop/git/test/demo && sudo rm -rf dist/
 # build
 cd /home/jw/Desktop/git/test/demo && sudo pyinstaller -F app.py
 # move file
-sudo cp -f /home/jw/Desktop/git/test/demo/dist/app /home/jw/Desktop/git/test/demo
+cp -f /home/jw/Desktop/git/test/demo/dist/app /home/jw/Desktop/
